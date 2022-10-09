@@ -61,7 +61,6 @@ Implement this API `/api/v1/products`
 - It should be able to filter result by statusCode (`instock`, `outstock`) 
 for example /api/v1/products?statusCode=instock it should return all products from all providers that have status code instock
 - It should be able to filer by amount range for example `/api/v1/products?balanceMin=10&balanceMax=100` it should return result between 10 and 100 including 10 and 100
-- It should be able to filer by `currency` 
 - It should be able to combine all this filter together 
 
 ## The Evaluation
